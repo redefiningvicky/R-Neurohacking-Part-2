@@ -4,7 +4,7 @@ This project uses the R programming language and its neuroimaging packages to ma
 ## 🛠️ Tools <br>
 • <b>Language:</b> R <p>
 ## 📦 FSLR Installation
-## Windows PowerShell
+### Windows PowerShell
 ```
  wsl --update
  wsl --shutdown
@@ -12,7 +12,7 @@ This project uses the R programming language and its neuroimaging packages to ma
  wsl --install -d Ubuntu-22.04
 ```
 
-# Ubuntu
+### Ubuntu
 ```
 sudo apt update
 sudo apt -y upgrade
