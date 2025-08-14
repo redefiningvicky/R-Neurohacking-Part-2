@@ -17,12 +17,16 @@ This project uses the R programming language and its neuroimaging packages to ma
 sudo apt update
 sudo apt -y upgrade
 sudo apt-get install dc python3 bzip2 mesa-utils gedit firefox libgomp1
-
+```
+```
 sudo apt update && sudo apt install bzip2
-
+```
+```
 curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | sh -s
-
+```
+```
 curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | sh -s -- ~/fsl/ --extra truenet
-
+```
+```
 curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | sh -s -- ~/fsl/ --extra osl-dynamics
 ```
