@@ -32,7 +32,7 @@ curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | s
 ```
 
 ### 01 MPRAGE Mean
-<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/394becd7dc384856c0a6b971c2237026b922f682/R_Neurohacking_Results_Part_14/113-01-MPRAGE_Mean.png" width="800" />
+<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/394becd7dc384856c0a6b971c2237026b922f682/R_Neurohacking_Results_Part_14/113-01-MPRAGE_Mean.png" width="400" />
 
 ```
 #compute mean
@@ -41,7 +41,7 @@ mean_text_113_01_MPRAGE <- paste0("113-01-MPRAGE.nii.gz Mean: ", round(mean_val_
 ```
 
 ### 02 MPRAGE Mean
-<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/394becd7dc384856c0a6b971c2237026b922f682/R_Neurohacking_Results_Part_14/113-02-MPRAGE_Mean.png" width="800" />
+<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/394becd7dc384856c0a6b971c2237026b922f682/R_Neurohacking_Results_Part_14/113-02-MPRAGE_Mean.png" width="400" />
 
 ```
 #compute mean
