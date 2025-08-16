@@ -144,10 +144,10 @@ dev.off()
 Plotting Histogram Slices 02, 06, 10, 14, 18, 22
 
 ```{r}           
-# slices to plot
+#slices to plot
 slices_02_06_10_14_18_22 <- c(2, 6, 10, 14, 18, 22)
 
-# 113-01-MPRAGE histogram slices 02, 06, 10, 14, 18, 22
+#113-01-MPRAGE histogram slices 02, 06, 10, 14, 18, 22
 vals_113_01_MPRAGE <- lapply(slices_02_06_10_14_18_22, function(x) {
   data.frame(
     Original = c(nim_113_01_MPRAGE[,,x]),
@@ -169,7 +169,7 @@ g_113_01_MPRAGE <- ggplot(v_113_01_MPRAGE, aes(x=Value, colour=factor(slice))) +
 print(g_113_01_MPRAGE)
 dev.off()
 
-# 113-02-MPRAGE histogram slices 02, 06, 10, 14, 18, 22
+#113-02-MPRAGE histogram slices 02, 06, 10, 14, 18, 22
 vals_113_02_MPRAGE <- lapply(slices_02_06_10_14_18_22, function(x) {
   data.frame(
     Original = c(nim_113_02_MPRAGE[,,x]),
@@ -195,10 +195,10 @@ dev.off()
 Plotting Histogram Slices 01-22
 
 ```{r}
-# slices to plot
+#slices to plot
 slices_01_22 <- 1:22
 
-# 113-01-MPRAGE histogram slices 01-22
+#113-01-MPRAGE histogram slices 01-22
 vals_113_01_MPRAGE <- lapply(slices_01_22, function(x) {
   data.frame(
     Original = c(nim_113_01_MPRAGE[,,x]),
@@ -220,7 +220,7 @@ g_113_01_MPRAGE <- ggplot(v_113_01_MPRAGE, aes(x=Value, colour=factor(slice))) +
 print(g_113_01_MPRAGE)
 dev.off()
 
-# 113-02-MPRAGE histogram slices 01-22
+#113-02-MPRAGE histogram slices 01-22
 vals_113_02_MPRAGE <- lapply(slices_01_22, function(x) {
   data.frame(
     Original = c(nim_113_02_MPRAGE[,,x]),
