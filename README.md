@@ -155,3 +155,45 @@ vals_113_02_MPRAGE <- lapply(slices_01_22, function(x) {
 vals_113_02_MPRAGE <- do.call(rbind, vals_113_02_MPRAGE)
 v_113_02_MPRAGE <- melt(vals_113_02_MPRAGE, id.vars="slice", variable.name="ImageType", value.name="Value")
 ```
+### 113_01_MPRAGE_Original
+<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/b8e02f3c818a545571870cdec0270d646722a4ba/R_Neurohacking_Results_Part_15/113_01_MPRAGE_Original.png" width="400" />
+
+```
+#read original 113-01-MPRAGE.nii.gz
+nim_113_01_MPRAGE <- readNIfTI(win_file_113_01_MPRAGE)
+
+#read extracted brain 113-01-MPRAGE.nii.gz
+bet_fast_113_01_MPRAGE <- readNIfTI(win_file_113_01_MPRAGE, reorient=FALSE)
+```
+### 01 MPRAGE BET Overlay
+<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/b8e02f3c818a545571870cdec0270d646722a4ba/R_Neurohacking_Results_Part_15/113_01_MPRAGE_BET_Overlay.png" width="400" />
+
+```
+#read original images 113-01-MPRAGE.nii.gz
+fast_img_113_01_MPRAGE <- readNIfTI(win_file_113_01_MPRAGE, reorient=FALSE)
+
+#create masks 113-01-MPRAGE.nii.gz
+bet_fast_mask_113_01_MPRAGE <- bet_fast_113_01_MPRAGE
+bet_fast_mask_113_01_MPRAGE[bet_fast_113_01_MPRAGE <= 0] <- NA
+```
+### 02 MPRAGE Original
+<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/b8e02f3c818a545571870cdec0270d646722a4ba/R_Neurohacking_Results_Part_15/113_02_MPRAGE_Original.png" width="400" />
+
+```
+#read original 113-02-MPRAGE.nii.gz
+nim_113_02_MPRAGE <- readNIfTI(win_file_113_02_MPRAGE)
+
+#read extracted brain 113-02-MPRAGE.nii.gz
+bet_fast_113_02_MPRAGE <- readNIfTI(win_file_113_02_MPRAGE, reorient=FALSE)
+```
+### 02 MPRAGE BET Overlay
+<img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/b8e02f3c818a545571870cdec0270d646722a4ba/R_Neurohacking_Results_Part_15/113_02_MPRAGE_BET_Overlay.png" width="400" />
+
+```
+#read original images 113-02-MPRAGE.nii.gz
+fast_img_113_02_MPRAGE <- readNIfTI(win_file_113_02_MPRAGE, reorient=FALSE)
+
+#create masks 113-02-MPRAGE.nii.gz
+bet_fast_mask_113_02_MPRAGE <- bet_fast_113_02_MPRAGE
+bet_fast_mask_113_02_MPRAGE[bet_fast_113_02_MPRAGE <= 0] <- NA
+```
