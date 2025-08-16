@@ -1,4 +1,4 @@
-## 📦 FSL Installation
+## 📦 FSL Installation for Windows
 ### Windows PowerShell
 ```
  wsl --update
@@ -26,5 +26,7 @@ curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | s
 curl -Ls https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/releases/getfsl.sh | sh -s -- ~/fsl/ --extra osl-dynamics
 ```
 
-### Ubuntu
+### WSL
+```
+sudo apt install r-base
 ```
