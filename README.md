@@ -113,7 +113,7 @@ vals_113_02_MPRAGE <- lapply(slices_01_22, function(x) {
 vals_113_02_MPRAGE <- do.call(rbind, vals_113_02_MPRAGE)
 v_113_02_MPRAGE <- melt(vals_113_02_MPRAGE, id.vars="slice", variable.name="ImageType", value.name="Value")
 ```
-### 113_01_MPRAGE_Original
+### 01 MPRAGE Original
 <img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/b8e02f3c818a545571870cdec0270d646722a4ba/R_Neurohacking_Results_Part_15/113_01_MPRAGE_Original.png" width="400" />
 
 ```
