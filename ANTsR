@@ -10,3 +10,13 @@ This is an alternative to ANTsR if there are errors for Window installation.
 remotes::install_github("stnava/ANTsRCore")
 library(ANTsRCore)
 ```
+## 📦 RTools Installation and Compile ANTsRCore
+This is an alternative to ANTsRCore Installation in R if there are failures from Github.
+```
+https://cran.r-project.org/bin/windows/Rtools/
+```
+pkgbuild::check_build_tools(debug = TRUE)
+```
+remotes::install_github("stnava/ANTsRCore")
+library(ANTsRCore)
+```
