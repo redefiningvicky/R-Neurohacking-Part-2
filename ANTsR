@@ -1,0 +1,12 @@
+## 📦 ANTsR Installation in R
+```
+install.packages("remotes")
+remotes::install_github("stnava/ANTsR")
+library(ANTsR)
+```
+## 📦 ANTsRCore Installation in R
+This is an alternative to ANTsR if there are errors for Window installation. 
+```
+remotes::install_github("stnava/ANTsRCore")
+library(ANTsRCore)
+```
