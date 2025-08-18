@@ -74,7 +74,7 @@ library(ANTsRCore)
 Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = "true")
 devtools::install_github("ANTsX/ANTsRCore", build_vignettes = FALSE, INSTALL_opts="--no-multiarch")
 ```
-```
+
 ### 01 MPRAGE Mean
 <img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/394becd7dc384856c0a6b971c2237026b922f682/R_Neurohacking_Results_Part_14/113-01-MPRAGE_Mean.png" width="300" />
 
