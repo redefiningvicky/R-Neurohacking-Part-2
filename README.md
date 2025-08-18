@@ -47,6 +47,16 @@ This is an alternative to ANTsR if there are errors for Window installation.
 remotes::install_github("stnava/ANTsRCore")
 library(ANTsRCore)
 ```
+## 📦 RTools Installation and Compile ANTsRCore
+This is an alternative to ANTsRCore Installation in R if there are failures from Github.
+```
+https://cran.r-project.org/bin/windows/Rtools/
+```
+pkgbuild::check_build_tools(debug = TRUE)
+```
+remotes::install_github("stnava/ANTsRCore")
+library(ANTsRCore)
+```
 ### 01 MPRAGE Mean
 <img src="https://github.com/redefiningvicky/R-Neurohacking-Part-2/blob/394becd7dc384856c0a6b971c2237026b922f682/R_Neurohacking_Results_Part_14/113-01-MPRAGE_Mean.png" width="300" />
 
