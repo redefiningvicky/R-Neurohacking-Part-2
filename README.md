@@ -41,6 +41,12 @@ install.packages("remotes")
 remotes::install_github("stnava/ANTsR")
 library(ANTsR)
 ```
+## 📦 ANTsR Installation in R
+```
+install.packages("remotes")
+remotes::install_github("stnava/ANTsR")
+library(ANTsR)
+```
 ## 📦 ANTsRCore Installation in R
 This is an alternative to ANTsR if there are errors for Window installation. 
 ```
@@ -57,6 +63,11 @@ pkgbuild::check_build_tools(debug = TRUE)
 ```
 ```
 remotes::install_github("stnava/ANTsRCore")
+```
+```
+devtools::install_github("ANTsX/ANTsRCore")
+```
+```
 library(ANTsRCore)
 ```
 ### 01 MPRAGE Mean
