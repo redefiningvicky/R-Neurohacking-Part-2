@@ -20,5 +20,10 @@ pkgbuild::check_build_tools(debug = TRUE)
 ```
 ```
 remotes::install_github("stnava/ANTsRCore")
+```
+```
+devtools::install_github("ANTsX/ANTsRCore")
+```
+```
 library(ANTsRCore)
 ```
